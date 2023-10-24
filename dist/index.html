@@ -8,9 +8,26 @@
     <link rel="stylesheet" href="style.css">    
     
 </head>
-<body>
-    <h1 class="text-teal-500 text-center mt-4">TailwindCSS CLI</h1>
+<body class="font-sans">
+    <section class="container mx-auto">
+        <h1 class="text-p80-primary text-center mt-4 border-b-p80-secondary border-2">TailwindCSS CLI &amp; Learning</h1>
+        
+        <h2>Create custom Tailwind class</h2>
 
-    <button class="btn-primary">Click me</button>
+        <div><button class="btn-primary">Click me</button></div>
+        
+        <h2>Group &amp; Peer</h2>
+        
+        <div class="peer group bg-p80-primary p-4 text-white cursor-pointer rounded-md mb-4">
+            <div><button class="bg-p80-accent hover:bg-p80-secondary rounded-md group-hover:bg-slate-400 text-lg text-white border-none p-4 cursor-pointer">Hover over me &hellip;</button></div>
+        </div>
+
+        <div class="bg-p80-primary h-20 w-20 rounded-md peer-hover:bg-orange-500 transition-colors text-white duration-500 mb-10 p-3">&hellip; and I will change color</div>
+
+        <h2>Basic class based animation</h2>
+
+        <div class="bg-p80-primary rounded-md text-white p-4 animate-bounce mb-10 shadow-[0_10px_10px_theme('colors.p80-secondary')]">Basic animation</div>
+        <div class="bg-orange-400 rounded-md text-white p-4 shadow-p80">Custom boxshadow</div>
+    </section>
 </body>
 </html>

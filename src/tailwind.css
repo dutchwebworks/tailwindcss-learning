@@ -29,4 +29,8 @@
     .btn-primary {
         @apply bg-p80-primary p-4 rounded-md text-white font-bold border-none cursor-pointer;
     }
+
+    .btn-primary:hover {
+        @apply bg-p80-secondary;
+    }
 }
