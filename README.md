@@ -11,6 +11,7 @@
 
 * Open a Terminal and go to the directory where the `.nvmrc` resides
 * Run `nvm install` to install the correct version of NodeJS for this project
+* Run `nvm use` to actually switch to the correct version that this project uses
 * Run `npm install` to install the depedencies for this project.
 
 ## Running this project
